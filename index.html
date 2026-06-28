@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Domino Trainer</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="rotateWarning">
+        <div>
+            🔄<br><br>
+            Please rotate your phone<br>
+            to landscape mode
+        </div>
+    </div>
+
+    <div id="gameWrapper">
+
+        <div class="top-bar">
+
+            <h1 id="info">
+                Press Start
+            </h1>
+
+            <h2 id="timer">
+                Time: 0.00
+            </h2>
+
+            <button id="startBtn">
+                Start Game
+            </button>
+
+            <button id="resetBtn" style="display:none;">
+                Play Again
+            </button>
+
+        </div>
+
+        <div class="game-container">
+
+            <div class="targets-panel">
+
+                <h2 class="targets-title">
+                    Find These Dominoes
+                </h2>
+
+                <div id="targetsGrid"
+                     class="targets-grid">
+                </div>
+
+            </div>
+
+            <div class="board-panel">
+
+                <div id="boardGrid"
+                     class="board-grid">
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>>>
